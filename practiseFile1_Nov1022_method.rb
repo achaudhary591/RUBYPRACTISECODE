@@ -9,3 +9,4 @@ sayhelloTo "Akshay Chaudhary"
 
 
 #datatype of object object.class
+#object.method = available methods
