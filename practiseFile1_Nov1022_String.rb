@@ -14,3 +14,5 @@ puts "My first name is #{first_name} and my last name is #{last_name}"
 puts first_name.reverse
 
 puts full_name.reverse
+
+puts full_name.capitalize
