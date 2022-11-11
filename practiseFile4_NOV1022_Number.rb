@@ -7,3 +7,6 @@ num1 = rand
 num2 = rand
 
 puts num1 / num2
+
+20.times {print "="}
+puts ""
