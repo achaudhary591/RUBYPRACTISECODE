@@ -38,7 +38,12 @@ print "\n"
 #another way
 print "\n \n"
 
-z.each do |food|
-  print food.capitalize +" "
-end
+z.each {|food|
+  print food.capitalize+" "
+}
 print "\n \n"
+
+# selecting odd number from an array
+
+oddNum =  x.select {|number| number.odd?}
+p oddNum
