@@ -15,3 +15,30 @@ p x.last
 z = x.to_a.shuffle! #shuffling
 
 p z
+
+#split the sentence
+
+str = "My name is Akshay Chaudhary and I am a member of W3villa"
+
+z = str.split(" ")
+p z
+
+
+#iterators
+
+20.times{print "="}
+p ""
+p "ITERATORS"
+
+for i in z
+  print i + " "
+end
+print "\n"
+
+#another way
+print "\n \n"
+
+z.each do |food|
+  print food +" "
+end
+print "\n \n"
