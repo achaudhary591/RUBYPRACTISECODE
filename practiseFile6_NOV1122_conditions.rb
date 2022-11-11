@@ -8,6 +8,4 @@ if(x / y > 0)
     puts "We are good"
 else
   puts "we are bad"
-
 end
-
