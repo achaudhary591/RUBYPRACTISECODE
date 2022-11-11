@@ -39,6 +39,6 @@ print "\n"
 print "\n \n"
 
 z.each do |food|
-  print food +" "
+  print food.capitalize +" "
 end
 print "\n \n"
