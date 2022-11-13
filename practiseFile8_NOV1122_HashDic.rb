@@ -19,3 +19,4 @@ p another_hash.keys
 my_details.each do |key, value|
   puts "The class for key is: #{key.class} and for  value is: #{value.class}"
 end
+
