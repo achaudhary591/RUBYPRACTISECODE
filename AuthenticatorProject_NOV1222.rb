@@ -4,7 +4,8 @@ users = [
           { username: "jack", password: "password2" },
           { username: "arya", password: "password3" },
           { username: "jonshow", password: "password4" },
-          { username: "heisenberg", password: "password5" }
+          { username: "heisenberg", password: "password5" },
+          { username:  "akshya", password: "chaudhary" }
         ]
 
 # authentication method to check and verify if username/password combination exists
