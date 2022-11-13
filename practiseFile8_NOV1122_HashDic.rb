@@ -1,5 +1,5 @@
 sample_hash = {'a' => 1 , 'b' => 2 , 'c' => 3 , 'd' => 4}
-my_details = {'name'  => 'Akshay', 'favcolor' => 'red'}
+my_details = {:name  => 'Akshay', :favcolor => 'red'}
 
 p sample_hash['d']
 
@@ -16,6 +16,6 @@ p another_hash.keys
 
 #  short snippet to determine datatype of key and value
 
-another_hash.each do |key, value|
+my_details.each do |key, value|
   puts "The class for key is: #{key.class} and for  value is: #{value.class}"
 end
