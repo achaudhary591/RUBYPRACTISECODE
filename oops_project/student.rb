@@ -33,12 +33,12 @@ class Student
 
   # toString Method
   def to_s
-   "    First name: #{@first_name},
-    Last name: #{@last_name},
-    Em@il address: #{@email},
-    Username: #{@username},
-    Password: #{@password},
-    ======================="
+   " First name: #{@first_name},
+    \n Last name: #{@last_name},
+    \n Em@il address: #{@email},
+    \n Username: #{@username},
+    \n Password: #{@password},
+    \n ======================="
   end
 
 end
