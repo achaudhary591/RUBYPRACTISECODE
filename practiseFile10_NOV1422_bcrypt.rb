@@ -11,4 +11,4 @@ puts my_password
 decrypted_password = BCrypt::Password.new("$2a$12$vePJ5YJWVJtUuL2zZZ.XEeo7umERcbWvNkkI8LSbJ1AbfZq2oIy6.")
 
 puts decrypted_password == "my password"     #=> true
-decrypted_password == "not my password" #=> false
+
