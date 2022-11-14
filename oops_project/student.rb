@@ -2,7 +2,7 @@ class Student
   #attribute accessors annotation(both getter and setter)
   attr_accessor :first_name, :last_name, :email, :username
 
-  # for only getter we have to use attr_reader instead
+  # for only getter we have to use attr_reader instead!
 
   @first_name
   @last_name
