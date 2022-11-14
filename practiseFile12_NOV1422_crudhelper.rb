@@ -1,4 +1,4 @@
-require_relative 'practiseFile11_NOV1422_crud' #when file in same directory
+require_relative 'practiseFile11_NOV1422_crud' #when file is in same directory
 
 # for other option we have to load path
 # $LOAD_PATH << '.'
